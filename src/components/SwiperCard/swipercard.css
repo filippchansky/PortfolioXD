@@ -1,0 +1,12 @@
+.card {
+    max-width: 500px;
+    padding: 20px 20px 40px 20px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    color: black;
+}

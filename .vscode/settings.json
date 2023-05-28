@@ -1,0 +1,28 @@
+{
+  "emmet.includeLanguages": {
+    "typescript": "typescriptreact"
+  },
+  "emmet.preferences": {
+    "Typescript default React component": {
+      "scope": "typescriptreact",
+      "prefix": "rfcd",
+      "body": [
+        "import React, { FC } from 'react'",
+        "",
+        "interface ${TM_FILENAME_BASE}Props {",
+        "  $1",
+        "}",
+        "",
+        "const ${TM_FILENAME_BASE}: FC<${TM_FILENAME_BASE}Props> = ({ $2 }) => {",
+        "  return (",
+        "    <div>",
+        "     ${3:$TM_FILENAME_BASE}",
+        "    </div>",
+        "  )",
+        "}",
+        "",
+        "export default ${TM_FILENAME_BASE};"
+      ],
+    }
+  }
+}
