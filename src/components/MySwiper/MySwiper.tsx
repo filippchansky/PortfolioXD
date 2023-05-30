@@ -10,6 +10,9 @@ import SwiperCard from "../SwiperCard/SwiperCard";
 interface MySwiperProps {}
 
 const MySwiper: React.FC<MySwiperProps> = ({}) => {
+
+  console.log()
+
   return (
     <div className="swiper__screen">
       <div className="swiper__container">
@@ -23,7 +26,7 @@ const MySwiper: React.FC<MySwiperProps> = ({}) => {
           <SwiperSlide>
             <SwiperCard title={"Yes or No"} description={"https://yesno.wtf/assets/yes/14-b57c6dc03aa15a4b18f53eb50d6197ee.gif"} link={"/yesno"}></SwiperCard>
           </SwiperSlide>
-          <SwiperSlide>2</SwiperSlide>
+          <SwiperSlide><SwiperCard title={"The best todos in the world??"} description={"https://i.imgur.com/1CssljC.gif"} link={"/todos"}></SwiperCard></SwiperSlide>
           <SwiperSlide>3</SwiperSlide>
           <SwiperSlide>4</SwiperSlide>
           <SwiperSlide>5</SwiperSlide>

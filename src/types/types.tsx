@@ -1,3 +1,9 @@
+export interface ITodos {
+    id: number
+    text: string
+    status?: boolean
+}
+
 export interface IAdress {
     street: string
     city: string

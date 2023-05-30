@@ -8,5 +8,10 @@
     flex-direction: column;
     gap: 20px;
     cursor: pointer;
-    color: black;
+    color: white;
+}
+
+.card__content img {
+    max-width: 500px;
+    max-height: 250px;
 }

@@ -1,0 +1,59 @@
+.todo__container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #000000;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+.less-than {
+    font-size: 30px; 
+    padding: 10px;
+    color: #000000;
+  }
+  
+
+
+.header__todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.todo-input {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #000000;
+  font-size: 16px;
+}
+
+.add-todo {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.body__todo {
+  display: flex;
+  flex-direction: column;
+}
+
+
+

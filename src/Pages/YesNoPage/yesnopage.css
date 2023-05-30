@@ -5,7 +5,7 @@
     height: 100vh;
   }
   
-  form {
+  .form-yesno {
     background-color: #f2f2f2;
     border-radius: 10px;
     max-width: 500px;
@@ -13,21 +13,21 @@
     text-align: center;
   }
   
-  h2 {
+  .form-yesno h2 {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #4CAF50;
+    color: black;
   }
   
-  label {
+  .label-yesno {
     display: block;
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
   }
   
-  input {
+  .input-yesno {
     padding: 10px;
     font-size: 16px;
     border: none;
@@ -36,18 +36,19 @@
     width: 100%;
   }
   
-  button {
+  .button-yesno {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    transition: all .3s;
   }
   
-  button:hover {
-    background-color: #3e8e41;
+  .button-yesno:hover {
+    background-color: rgb(71, 63, 63);
   }
 
 .btn__container {

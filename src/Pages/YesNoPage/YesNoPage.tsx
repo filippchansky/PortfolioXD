@@ -30,13 +30,13 @@ const YesNoPage: React.FC<YesNoPageProps> = ({}) => {
         </div>
       </ModalWindow>
       <div className="form__container">
-        <form>
+        <form className="form-yesno">
           <h2>Введите свой вопрос:</h2>
-          <input type="text" id="question" name="question" required />
+          <input className="input-yesno" type="text" id="question" name="question" required />
           <div className="btn__container">
-            <button onClick={getAnswer}>Получить ответ</button>
+            <button className="button-yesno" onClick={getAnswer}>Получить ответ</button>
             <Link to={"/"}>
-            <button>На главную</button>
+            <button className="button-yesno">На главную</button>
             </Link>
           </div>
         </form>
