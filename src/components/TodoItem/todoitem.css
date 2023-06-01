@@ -29,4 +29,17 @@
     background-color: #000000;
     color: white;
     border-radius: 5px;
+    transition: all .3s;
+}
+
+.todo-remove:hover {
+  background-color: red;
+}
+
+.todo-remove::before {
+  content: 'Выполнено';
+}
+
+.todo-remove:hover::before{
+  content: "Удалить";
 }

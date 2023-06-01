@@ -10,13 +10,11 @@ import SwiperCard from "../SwiperCard/SwiperCard";
 interface MySwiperProps {}
 
 const MySwiper: React.FC<MySwiperProps> = ({}) => {
-
-  console.log()
+  console.log();
 
   return (
     <div className="swiper__screen">
       <div className="swiper__container">
-      
         <Swiper
           pagination={{ clickable: true }}
           navigation={true}
@@ -24,16 +22,26 @@ const MySwiper: React.FC<MySwiperProps> = ({}) => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <SwiperCard title={"Yes or No"} description={"https://yesno.wtf/assets/yes/14-b57c6dc03aa15a4b18f53eb50d6197ee.gif"} link={"/yesno"}></SwiperCard>
+            <SwiperCard
+              title={"Yes or No"}
+              description={
+                "https://yesno.wtf/assets/yes/14-b57c6dc03aa15a4b18f53eb50d6197ee.gif"
+              }
+              link={"/yesno"}
+            ></SwiperCard>
           </SwiperSlide>
-          <SwiperSlide><SwiperCard title={"The best todos in the world??"} description={"https://i.imgur.com/1CssljC.gif"} link={"/todos"}></SwiperCard></SwiperSlide>
-          <SwiperSlide>3</SwiperSlide>
-          <SwiperSlide>4</SwiperSlide>
-          <SwiperSlide>5</SwiperSlide>
-          <SwiperSlide>6</SwiperSlide>
-          <SwiperSlide>7</SwiperSlide>
-          <SwiperSlide>8</SwiperSlide>
-          <SwiperSlide>9</SwiperSlide>
+          <SwiperSlide>
+            <SwiperCard
+              title={"The best todos in the world??"}
+              description={"https://i.imgur.com/1CssljC.gif"}
+              link={"/todos"}
+            ></SwiperCard>
+          </SwiperSlide>
+          <SwiperSlide> <SwiperCard
+              title={"Github API"}
+              description={"https://media3.giphy.com/media/lGD7VxrtwNalqhx68w/giphy.gif?cid=ecf05e47dgyu9r5700ne8taeysrktu5xlznsgbpe7seoawmn&ep=v1_gifs_search&rid=giphy.gif&ct=g"}
+              link={"/github"}
+            ></SwiperCard></SwiperSlide>
         </Swiper>
       </div>
     </div>

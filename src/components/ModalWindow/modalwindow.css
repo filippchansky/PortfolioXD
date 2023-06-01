@@ -13,10 +13,10 @@
 }
 
 .modal__content {
+    width: 100%;
     background-color: white;
     border-radius: 10px;
-    max-width: 500px;
-    padding: 10px;
+    max-width: 700px;
     cursor: auto;
 }
 

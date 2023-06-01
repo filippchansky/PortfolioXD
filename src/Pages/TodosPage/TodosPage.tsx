@@ -1,6 +1,5 @@
 import React from 'react'
 import TodosList from '../../components/TodosList/TodosList';
-import "./todos.css"
 
 interface TodosProps {
     
